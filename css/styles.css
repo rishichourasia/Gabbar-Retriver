@@ -1,0 +1,258 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: 'Montserrat';
+    
+}
+#title{
+    background-color:  #ffde1c;
+    color: rgb(0, 0, 0);
+}
+.container-fluid{
+    padding: 3% 6% 7%;
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 2.8rem;
+    line-height: 1.3;
+    font-weight: 900;
+    color: #ffffff;
+}
+.navbar{
+   
+    padding: 0 0 3em;
+
+
+}
+.navbar-brand{
+    font-family: 'Montserrat';    
+    font-size: 3.2rem;
+    font-weight: 900;
+    letter-spacing: -0.1rem;
+    color: #070505;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #fff;
+}
+.white{
+    color: #fff;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+    margin-bottom: 2.7em;
+}
+.fol{
+    margin-bottom: 20px;
+}
+.title-image{
+    position: static;
+    transform: rotate(0);
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: #fff700;
+    border-width: 5px;
+    width: 60%;
+    position: absolute;
+    right: 38%;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-weight: 700;
+}
+p{
+    color: #8f8f8f;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ffde1c;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ffde1c;
+}
+
+/* gallery */
+.above-gallery{
+    text-align: center;
+    background-color: #292121;
+    padding-bottom: 1em;
+    
+}
+.above-gall{
+    color: #fff;
+}
+#gallery{
+   
+    text-align: center;
+    background-color: #4f4a4a;
+    color: #fff;
+
+}
+/* about text */
+#demo{
+    background-color: #4f4a4a;
+    color: #fff;
+}
+/* about text */
+
+.about-text{
+    background-color: #ffffff;
+    
+}
+.about-p{
+    color: #4f4a4a;
+}
+/* Testimonials */
+.above-testimonial{
+    background-color: #221818;
+    text-align: center;
+    padding: 2% 2% 4%;
+}
+.above-test{
+    color: rgb(255, 255, 255);  
+    display: inline;
+    font-size: 1.2em;
+    text-align: center;
+}
+h2{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+#testimonials{
+   
+    text-align: center;
+    background-color: #4f4a4a;
+    color: #fff;
+
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+   
+}
+.gallery-image{
+   max-width: 100%;
+    height: auto;
+}
+h5{
+    padding-top: 1em;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+} 
+
+#cta {
+    background-color: #ffde1c;
+    color: rgb(0, 0, 0);
+    padding: 7% 15% 2%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.4;
+     
+}
+.meet{
+    color: #4f4a4a;
+}
+.met{
+    margin-bottom: 20px;
+}
+/* developer info */
+.developer{
+    background-color: #4f4a4a;
+   
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+    padding: 2% 15% 2%;
+    
+}
+.developer-p{
+    color: #fff;
+}
+/* footer section  */
+#footer{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 2% 15% 1%;
+
+}
+.social-icon{
+    margin: 20px 10px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+/* Mobile responsiveness */
+
+@media only screen and (max-width: 600px){
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        border-radius: 50%;
+        border: 5px solid;
+        border-color: #fff700;
+        border-width: 5px;
+        width: 60%;
+        
+
+    }
+    .about-p{
+        font-size: 1.1em;
+        font-family: "Montserrat";
+        font-weight: lighter;
+        line-height: 1.5em;
+    }
+    .about-h2{
+        font-size: 2.7rem;
+        padding-bottom: 4%;
+    }
+    .social-icon{
+        font-size: 2.3em;
+        margin-top: 16%;
+    }
+    .testimonial-image{
+        border-radius: 100%;
+        width: 70px;
+        margin-top: 40px;
+    }
+}
